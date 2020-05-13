@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".CovidCountryDetail">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAppBar"
+            app:title="Country"
+            app:titleTextColor="@color/colorPrimary"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView_covidCountryDetail">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:id="@+id/tvDetailCountryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:text="China"
+                android:textSize="30sp"
+                android:fontFamily="@font/gothic_bold"
+                android:textColor="@color/colorMain"/>
+
+            <TextView
+                android:id="@+id/DetailTotalDeaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/gothic_bold"
+                android:text="Total Deaths"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/number_totalDeathsDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="160dp"
+                android:fontFamily="@font/gothic_normal"
+                android:gravity="left"
+                android:text="1000"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/DetailTodayDeaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:fontFamily="@font/gothic_bold"
+                android:text="Today Deaths"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/number_todayDeathsDetails"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginEnd="83dp"
+                android:layout_marginRight="83dp"
+                android:fontFamily="@font/gothic_normal"
+                android:gravity="left"
+                android:text="40"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/DetailTotalCases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="240dp"
+                android:fontFamily="@font/gothic_bold"
+                android:text="Total Cases"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/number_totalCasesDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="270dp"
+                android:fontFamily="@font/gothic_normal"
+                android:gravity="left"
+                android:text="1000"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/DetailTodayCases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginEnd="56dp"
+                android:layout_marginRight="56dp"
+                android:fontFamily="@font/gothic_bold"
+                android:gravity="left"
+                android:text="Today Cases"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/number_todayCasesDetails"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginRight="84dp"
+                android:fontFamily="@font/gothic_normal"
+                android:gravity="left"
+                android:text="10"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/DetailTotalRecovered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="350dp"
+                android:fontFamily="@font/gothic_bold"
+                android:text="Total Recovered"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/number_totalRecoveredDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="380dp"
+                android:fontFamily="@font/gothic_normal"
+                android:gravity="left"
+                android:text="10"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/TotalActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="450dp"
+                android:fontFamily="@font/gothic_bold"
+                android:text="Total Active"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/number_totalActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="480dp"
+                android:fontFamily="@font/gothic_normal"
+                android:gravity="left"
+                android:text="10"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/DetailTotalCritical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:fontFamily="@font/gothic_bold"
+                android:gravity="left"
+                android:text="Total Critical"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/number_totalCriticalDetails"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="480dp"
+                android:layout_marginEnd="84dp"
+                android:layout_marginRight="84dp"
+                android:fontFamily="@font/gothic_normal"
+                android:gravity="left"
+                android:text="10"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

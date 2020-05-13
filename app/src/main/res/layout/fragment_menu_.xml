@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MenuFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/app_display"
+                android:layout_width="303dp"
+                android:layout_height="241dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_covid_tracker_app_display_vector" />
+
+
+            <Button
+                android:id="@+id/button_Settings"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gothic_normal"
+                android:layout_marginTop="335dp"
+                android:gravity="left"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/image_Settings"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="40dp"
+                android:backgroundTint="@color/colorText"
+                android:background="@drawable/ic_settings_black_24dp" />
+
+            <TextView
+                android:id="@+id/text_Settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/image_Settings"
+                android:layout_marginLeft="81dp"
+                android:layout_marginTop="350dp"
+                android:fontFamily="@font/gothic_normal"
+                android:text="Settings"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/divider_one"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_alignBottom="@id/button_Settings"
+                android:background="@drawable/line_divider_menu"/>
+
+            <Button
+                android:id="@+id/button_Donate"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gothic_normal"
+                android:layout_alignTop="@id/divider_one"
+                android:gravity="left"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/image_Donate"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="411dp"
+                android:layout_marginLeft="40dp"
+                android:backgroundTint="@color/colorText"
+                android:background="@drawable/ic_attach_money_black_24dp" />
+
+            <TextView
+                android:id="@+id/text_Donate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/image_Settings"
+                android:layout_marginLeft="81dp"
+                android:layout_marginTop="411dp"
+                android:fontFamily="@font/gothic_normal"
+                android:text="Donate"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/divider_two"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_alignBottom="@id/button_Donate"
+                android:background="@drawable/line_divider_menu"/>
+
+
+            <Button
+                android:id="@+id/button_About"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gothic_normal"
+                android:layout_alignTop="@id/divider_two"
+                android:gravity="left"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/image_About"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="472dp"
+                android:layout_marginLeft="40dp"
+                android:backgroundTint="@color/colorText"
+                android:background="@drawable/ic_info_black_24dp" />
+
+            <TextView
+                android:id="@+id/text_About"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/image_Settings"
+                android:layout_marginLeft="81dp"
+                android:layout_marginTop="472dp"
+                android:fontFamily="@font/gothic_normal"
+                android:text="About"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/divider_three"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="2dp"
+                android:layout_alignBottom="@id/button_Donate"
+                android:background="@drawable/line_divider_menu"/>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

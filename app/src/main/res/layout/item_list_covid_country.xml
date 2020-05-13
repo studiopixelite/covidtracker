@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/CountryFlag"
+            android:layout_width="42dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginRight="11dp"/>
+
+        <TextView
+            android:id="@+id/txtTotalCases"
+            tools:text="82343"
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:fontFamily="@font/gothic_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtCountryNames"
+            tools:text="China"
+            android:textSize="20sp"
+            android:fontFamily="@font/gothic_bold"
+            android:textColor="@color/colorMain"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>
+

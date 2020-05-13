@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAppBar"
+            app:title="About"
+            app:titleTextColor="@color/colorPrimary"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="720dp">
+
+            <ImageView
+                android:id="@+id/icon_covidtracker"
+                android:layout_width="156dp"
+                android:layout_height="156dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/covid_tracker_official_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Covid Tracker V1.0"
+                android:textColor="@color/colorText"
+                android:textSize="15sp"
+                android:fontFamily="@font/gothic_bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-30dp"
+                android:layout_alignBottom="@id/icon_covidtracker"/>
+
+            <TextView
+                android:id="@+id/info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/icon_covidtracker"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-150dp"
+                android:fontFamily="@font/gothic_bold"
+                android:text="Get updated with the latest stats about COVID-19"
+                android:textColor="@color/colorText"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/icon_covidtracker"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-225dp"
+                android:fontFamily="@font/gothic_bold"
+                android:text="Developer"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/developer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/icon_covidtracker"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-255dp"
+                android:fontFamily="@font/gothic_normal"
+                android:text="Gabriel Awosusi"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/icon_covidtracker"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-330dp"
+                android:fontFamily="@font/gothic_bold"
+                android:text="Publisher"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/publisher_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/icon_covidtracker"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="-360dp"
+                android:fontFamily="@font/gothic_normal"
+                android:text="Pixelite"
+                android:textColor="@color/colorText"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/aboutdivider_one"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="-25dp"
+                android:layout_alignBottom="@id/info_text"
+                android:background="@drawable/line_divider_menu"/>
+
+            <ImageView
+                android:id="@+id/aboutdivider_two"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="-25dp"
+                android:layout_alignBottom="@id/developer_name"
+                android:background="@drawable/line_divider_menu"/>
+
+            <ImageView
+                android:id="@+id/aboutdivider_three"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="-25dp"
+                android:layout_alignBottom="@id/publisher_name"
+                android:background="@drawable/line_divider_menu"/>
+
+            <ImageButton
+                android:id="@+id/facebook_Button"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_alignBottom="@id/aboutdivider_three"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="-80dp"
+                android:background="@drawable/ic_facebook_ct"
+                android:backgroundTint="@color/colorMain" />
+
+            <ImageButton
+                android:id="@+id/twitter_Button"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_alignBottom="@id/aboutdivider_three"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-80dp"
+                android:background="@drawable/ic_twitter_ct"
+                android:backgroundTint="@color/colorMain"/>
+
+            <ImageButton
+                android:id="@+id/instagram_Button"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_alignBottom="@id/aboutdivider_three"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="-80dp"
+                android:background="@drawable/ic_instagram_ct"
+                android:backgroundTint="@color/colorMain" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

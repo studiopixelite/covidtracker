@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonateActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarDonate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAppBar"
+            app:title="Donate"
+            app:titleTextColor="@color/colorPrimary"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/donate_button_outline_background"/>
+
+    <Button
+        android:id="@+id/btc_Donate"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_bitcoin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donate via Bitcoin"
+        android:textSize="18sp"
+        android:textColor="@color/colorMain"
+        android:fontFamily="@font/gothic_bold"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1JsQbpxCYZG81kp4HeFvYu2foZiBfnRWht"
+        android:textSize="10sp"
+        android:textColor="@color/colorText"
+        android:fontFamily="@font/gothic_normal"
+        android:layout_marginTop="295dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to copy BTC Wallet Address"
+        android:textSize="15sp"
+        android:textColor="@color/colorText"
+        android:fontFamily="@font/gothic_normal"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/donate_button_outline_background"/>
+
+    <Button
+        android:id="@+id/eth_Donate"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp" />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="390dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_ethereum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donate via Ethereum"
+        android:textSize="18sp"
+        android:textColor="@color/colorMain"
+        android:fontFamily="@font/gothic_bold"
+        android:layout_marginTop="490dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0x3432DA91c839C9315AeeFd5f2da23Ae60ee2aE72"
+        android:textSize="10sp"
+        android:textColor="@color/colorText"
+        android:fontFamily="@font/gothic_normal"
+        android:layout_marginTop="565dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to copy ETH Wallet Address"
+        android:textSize="15sp"
+        android:textColor="@color/colorText"
+        android:fontFamily="@font/gothic_normal"
+        android:layout_marginTop="530dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/donate_button_outline_background"/>
+
+    <Button
+        android:id="@+id/money_Donate"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="630dp" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="660dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_business" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donate via Google"
+        android:textSize="18sp"
+        android:textColor="@color/colorMain"
+        android:fontFamily="@font/gothic_bold"
+        android:layout_marginTop="760dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can donate as many times as desired. Thank you."
+        android:textSize="10sp"
+        android:textColor="@color/colorText"
+        android:fontFamily="@font/gothic_normal"
+        android:layout_marginTop="835dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donate $1.99"
+        android:textSize="15sp"
+        android:textColor="@color/colorText"
+        android:fontFamily="@font/gothic_normal"
+        android:layout_marginTop="800dp"
+        android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

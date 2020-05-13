@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuItems">
+
+    <ImageView
+        android:id="@+id/image_Settings"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/ic_settings_black_24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="80dp"
+        android:layout_alignLeft="@id/image_Settings"
+        android:text="Settings"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        android:fontFamily="@font/gothic_normal"/>
+
+    <Button
+        android:id="@+id/button_Settings"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gothic_normal"
+        android:gravity="left"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/image_Donate"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/ic_settings_black_24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_alignLeft="@id/image_Donate"
+        android:text="Donate"
+        android:textColor="@color/colorText"
+        android:textSize="30sp"
+        android:fontFamily="@font/gothic_normal"/>
+
+    <Button
+        android:id="@+id/button_Donate"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/gothic_normal"
+        android:textSize="30sp" />
+
+</RelativeLayout>
