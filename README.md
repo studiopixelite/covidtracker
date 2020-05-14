@@ -2,6 +2,10 @@
 
 Pixelite's Covid Tracker app official source code.
 
+Developer: Gabriel Awosusi
+
+Publisher: Pixelite
+
 # Note
 
 This source code is licensed under the Apache License 2.0, please read the LICENSE file for more information.
