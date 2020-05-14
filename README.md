@@ -10,7 +10,7 @@ Special Thanks to: Abdul Aziz Ahwan
 
 # Note
 
-This source code is licensed under the Apache License 2.0, please read the LICENSE file for more information.
+This source code is licensed by the Apache License 2.0, please read the LICENSE file for more information.
 
 The source code was created using Android Studio 3.5.3, Gradle 6.3. 
 
