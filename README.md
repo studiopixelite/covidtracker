@@ -1,5 +1,5 @@
 # covidtracker
-Pixelite's Covid Tracker official source code
+Pixelite's Covid Tracker app official source code
 
 # Documentation
 
