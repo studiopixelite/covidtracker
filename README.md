@@ -1,8 +1,12 @@
 # Description
 
 Pixelite's Covid Tracker app official source code.
+
 Developer: Gabriel Awosusi
+
 Publisher: Pixelite
+
+Special Thanks to: Abdul Aziz Ahwan
 
 # Note
 
@@ -21,7 +25,7 @@ Ethereum - https://www.dowallet.app/QR?wa=0x3432DA91c839C9315AeeFd5f2da23Ae60ee2
 Skrill - creativegreatonic@gmail.com
 
 # Documentation
-The application was made using Volley libraries and REST API for callbacks and data fetching. Material Design was used for the User Interface (UI)
+The application was made using Volley libraries and REST API for callbacks and data fetching. Material Design was used for the User Interface (UI).
 
 # Screenshots
 ![Screenshot 1](https://github.com/studiopixelite/covidtracker/blob/master/screenshots/1.png)
