@@ -1,6 +1,6 @@
 # Description
 
-Pixelite's Covid Tracker app official source code
+Pixelite's Covid Tracker app official source code.
 
 # Note
 
@@ -17,4 +17,8 @@ Bitcoin - https://www.dowallet.app/QR?wa=1JsQbpxCYZG81kp4HeFvYu2foZiBfnRWht
 Ethereum - https://www.dowallet.app/QR?wa=0x3432DA91c839C9315AeeFd5f2da23Ae60ee2aE72
 
 Skrill - creativegreatonic@gmail.com
+
+#Documentation
+The application was made using Volley libraries and REST API for callbacks and data fetching. Material Design was used for the User Interface (UI)
+
 
