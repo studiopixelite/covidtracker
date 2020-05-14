@@ -18,7 +18,7 @@ Ethereum - https://www.dowallet.app/QR?wa=0x3432DA91c839C9315AeeFd5f2da23Ae60ee2
 
 Skrill - creativegreatonic@gmail.com
 
-#Documentation
+# Documentation
 The application was made using Volley libraries and REST API for callbacks and data fetching. Material Design was used for the User Interface (UI)
 
 
