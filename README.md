@@ -22,6 +22,11 @@ Skrill - creativegreatonic@gmail.com
 The application was made using Volley libraries and REST API for callbacks and data fetching. Material Design was used for the User Interface (UI)
 
 # Screenshots
-![Screenshot 1](https://github.com/studiopixelite/covidtracker/blob/master/screenshots/Screenshot_2020-05-09-20-36-09.png)
+![Screenshot 1](https://github.com/studiopixelite/covidtracker/blob/master/screenshots/1.png)
+![Screenshot 2](https://github.com/studiopixelite/covidtracker/blob/master/screenshots/2.png)
+![Screenshot 3](https://github.com/studiopixelite/covidtracker/blob/master/screenshots/3.png)
+![Screenshot 4](https://github.com/studiopixelite/covidtracker/blob/master/screenshots/4.png)
+![Screenshot 5](https://github.com/studiopixelite/covidtracker/blob/master/screenshots/5.png)
+![Screenshot 6](https://github.com/studiopixelite/covidtracker/blob/master/screenshots/6.png)
 
 
