@@ -18,7 +18,7 @@ The source code was created using Android Studio 3.5.3, Gradle 6.3.
 
 Support this project by donating via: 
 
- Credit Card/Debit Card/Bank - https://paylink.ng/studiopixelite/
+Credit Card/Debit Card - https://paylink.ng/studiopixelite/
 
 Bitcoin - 36uVDZ7XVukrbM5DitAdEx1eNnqQNUVNgf
 
