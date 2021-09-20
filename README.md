@@ -6,6 +6,8 @@ Developer: Gabriel Awosusi
 
 Publisher: Pixelite
 
+Website: https://studiopixelite.com/covidtracker.html
+
 Special Thanks to: Abdul Aziz Ahwan
 
 # Note
